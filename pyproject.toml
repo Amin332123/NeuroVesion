@@ -6,15 +6,15 @@ readme = "README.md"
 authors = [
     { name = "Amin332123", email = "mohamedaminerahamni6@gamil.com" }
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.13,<3.14"
 dependencies = [
     "kaggle>=2.2.4",
-    "keras>=3.15.1",
     "matplotlib>=3.11.2",
     "numpy>=2.5.4",
     "opencv-python>=5.0.0.93",
     "pandas>=3.0.6",
-    "tensorflow>=2.22.0rc0",
+    "scikit-learn>=1.9.1",
+    "tensorflow==2.21.0",
 ]
 
 [project.scripts]
